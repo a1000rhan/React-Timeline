@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="bg">
       <h1 className="title">My Timeline</h1>
-      {mydata}
+      <div className="wrap"> {mydata}</div>
     </div>
   );
 }

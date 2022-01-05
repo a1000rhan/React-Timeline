@@ -14,6 +14,7 @@
 }
 .bg {
   background-color: #d3e1fe;
+  height: 100vh;
 }
 
 .App-header {
@@ -42,7 +43,6 @@
 .wrap {
   display: flex;
   flex-direction: row;
-
   justify-content: center;
 }
 .container {
@@ -51,7 +51,7 @@
 
   text-align: center;
   padding: 3px;
-  width: 15%;
+  width: 20%;
   border-radius: 5px;
   transition: 0.4s;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -59,7 +59,7 @@
 }
 
 .container:hover {
-  width: 16%;
+  width: 22%;
 }
 .texts {
   color: wheat;
